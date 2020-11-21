@@ -167,6 +167,7 @@ nav img {
 /* Daily Traffic */
 .daily {
     padding-bottom: .5em;
+    padding-top: 1.5em;
     border-bottom: 2px solid #e1d8f3;
 }
 
@@ -175,12 +176,14 @@ nav img {
 
 .mobile {
     padding-bottom: .5em;
+    padding-top: 1.5em;
     border-bottom: 2px solid #e1d8f3;
 }
 
 /* Social Stats */
 .social-stats {
     padding-bottom: .5em;
+    padding-top: 1.5em;
     border-bottom: 2px solid #e1d8f3; 
 }
 
@@ -263,6 +266,7 @@ nav img {
 
 .members {
     padding-bottom: .5em;
+    padding-top: 1.5em;
     border-bottom: 2px solid #e1d8f3; 
 }
 
@@ -278,6 +282,7 @@ nav img {
 
 .activity {
     padding-bottom: .5em;
+    padding-top: 1.5em;
     border-bottom: 2px solid #e1d8f3; 
 }
 
@@ -315,10 +320,15 @@ nav img {
 
 .message {
     padding-bottom: .5em;
+    padding-top: 1.5em;
     border-bottom: 2px solid #e1d8f3; 
 }
 
 /* Settings */
+.settings {
+    padding-top: 1.5em;
+}
+
 .settings .toggle-container {
     display: flex;
     flex-direction: column;
@@ -328,12 +338,6 @@ nav img {
 .settings p {
     display: inline-flex;
 }
-
-/* .settings .toggle {
-    background-color: blue;
-    color: #fff;
-    display: inline-flex;
-} */
 
 .settings .switch {
     position: relative;
@@ -479,7 +483,7 @@ border-radius: 50%;
 
     /* Header */
     header {
-        width: 100vw;
+        width: -webkit-fill-available;
     }
 
     /* Navigation */
@@ -547,5 +551,9 @@ border-radius: 50%;
     /* Settings */
     .settings {
         padding: 1.5em;
+    }
+
+    .toggle-container p {
+        margin-right: .75em;
     }
 }
