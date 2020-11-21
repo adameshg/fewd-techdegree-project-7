@@ -12,11 +12,10 @@
 
 main {
     margin: 0 1em;
-    overflow: hidden;
 }
 
 .h3-style {
-    padding: 1.5em 0;
+    padding: 0 0 1.5em 0;
     text-transform: uppercase;
     color: #708090;
 }
@@ -478,17 +477,75 @@ border-radius: 50%;
         width: 45vw;
     }
 
+    /* Header */
+    header {
+        width: 100vw;
+    }
+
+    /* Navigation */
+    nav {
+        padding-top: 1em;
+    }
+
     /* Dashboard */
     .dashboard {
-        width: 90vw;
+        width: 100vw;
         display: flex;
         justify-content: space-between;
     }
 
+    /* Alert Bar */
+    #alert {
+        margin-bottom: 1em;
+    }
+
+    /* Traffic */
+    .traffic .widget-container-full {
+        margin: auto;
+    }
+
+    /* Daily Traffic */
+    .daily {
+        border-right: 2px solid #e1d8f3;
+        padding: 1.5em;
+    }
+
+    .mobile {
+        padding: 1.5em;
+    }
+
     /* Social Stats */
+    .social-stats {
+        padding: 1.5em;
+    }
+    
     .social-stats-bottom {
         flex-direction: row;
+        width: 100vw;
         margin: auto;
         justify-content: space-around;
+    }
+
+    /* New Members */
+    .members {
+        padding: 1.5em;
+        border-right: 2px solid #e1d8f3;
+    }
+
+    /* Recent Activity */
+    .activity {
+        padding: 1.5em;
+    }
+
+    /* Messages */
+    .message {
+        padding: 1.5em;
+        border-right: 2px solid #e1d8f3;
+        border-bottom: none;
+    }
+
+    /* Settings */
+    .settings {
+        padding: 1.5em;
     }
 }
